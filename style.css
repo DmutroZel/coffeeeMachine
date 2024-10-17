@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.waterContainer2 {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.waterContainer {
+    width: 150px;
+    height: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 5px solid rgb(61, 59, 59);
+}
+
+.water {
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.btns {
+    margin-top: 20px;
+}
+.btns button{
+    margin: 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #333;
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+    border: 1px solid #333;
+    position: relative;
+    transition: 1s;
+}
+
+.btns button:hover {
+    background-color: #fff;
+    color: #333;
+    transition: 1s;
+    border: 1px solid #333;
+    margin-top: -5px;
+} 
+.coffeeMachineContainer{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.coffeeMachine{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(199, 141, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.coffeeMachineheader{
+    width: 370px;
+    height: 80px;
+    background-color: rgb(146, 108, 27);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.decor1{
+    width: 33%;
+    height: 80px;
+    display: flex;
+}
+.decor2{
+    width: 34%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decor3{
+    width: 33%;
+    height: 80px;
+}
+.coffeeBtn{
+    width: 70px;
+    height: 70px;
+    background-color: #9acfc5;
+    border: 5px solid #43beae;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+#menu{
+    position: absolute;
+    top: 40%;
+    right: 70%;
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: #1b1919;
+    color: #fff;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20%;
+}
+#menu button{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#menu button:hover{
+    scale: 1.1;
+}
+.krygContainer{
+   width: 160px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.fignya{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #2e2b2b; 
+    border-radius: 50%;
+    margin-bottom: -1%;
+}
+
+.stand {
+    width: 10px;
+    height: 15px;
+    background-color: #4e4a4a; 
+}
+.coffeeMachinestand1{
+    width: 380px;
+    height: 40px;
+    background-color: black;
+}
+.coffeeMachinestand2{
+    width: 360px;
+    height: 30px;
+    background-color: rgb(0, 225, 255);
+    border-radius: 10px;
+}
+.cMBG{
+    width: 300px;
+    height: 140px;
+    background-color: rgb(119, 87, 19);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.coffeeglass{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 85px 85px;
+    position: relative;
+}
+.handle {
+    width: 40px;
+    height: 40px;
+    border-radius: 0 100% 100% 0;
+    position: absolute;
+    top: 10px;
+    right: -25px;
+    border: 5px solid white;
+}
+.coffeeCreator{
+    width: 110px;
+    height: 110px;
+    background-color: #1b1919;
+    border-radius: 0 0 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    
+}
+.cofe{
+    width: 20px;
+    height: 100px;
+    background-color: rgb(87, 53, 15);
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+    margin-top: -100px;
+}
+
